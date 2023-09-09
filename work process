@@ -1,6 +1,6 @@
-The program first asks the user to enter an operator (+, -, *, /).
+The program first prints a message to the console asking the user to enter an operator (+, -, *, /).
 The program then reads the operator entered by the user.
-The program then asks the user to enter two numbers.
+The program then prints a message to the console asking the user to enter two numbers.
 The program then reads the two numbers entered by the user.
 The program then uses a switch statement to determine which operation to perform.
 If the operator is +, the program adds the two numbers and prints the result.
@@ -15,5 +15,17 @@ The scanf() function in the second line reads the operator entered by the user a
 The printf() function in the third line prints a message to the console asking the user to enter two numbers.
 The scanf() function in the fourth line reads the two numbers entered by the user and stores them in the variables num1 and num2.
 The switch() statement in the fifth line checks the value of the variable operator and executes the corresponding code block.
-The case statements in the switch statement check the value of the variable operator and execute the corresponding code block if the value matches. The case statements for the addition, subtraction, and multiplication operators simply calculate the result of the operation and print it to the console. The case statement for the division operator checks if the second number is zero. If it is, the program prints an error message. Otherwise, the program calculates the result of the division and prints it to the console.
-The default case statement is executed if the value of the variable operator does not match any of the case statements. In this case, the program prints a message saying that the operator is invalid.
+The case '+' statement adds the two numbers and prints the result.
+The case '-' statement subtracts the two numbers and prints the result.
+The case '*' statement multiplies the two numbers and prints the result.
+The case '/' statement divides the two numbers and prints the result, unless the second number is zero. In that case, the program prints an error message.
+The default case statement prints a message saying that the operator is invalid.
+I hope this explanation is clear. Let me know if you have any other questions.
+
+Here are some examples of how the program would work:
+
+If the user enters +, 10, and 5, the program would print the result 15.
+If the user enters -, 10, and 5, the program would print the result 5.
+If the user enters *, 10, and 5, the program would print the result 50.
+If the user enters /, 10, and 0, the program would print the error message Error: Cannot divide by zero.
+If the user enters an invalid operator, such as %, the program would print the message Invalid operator.
