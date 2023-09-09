@@ -21,6 +21,7 @@ Here is a more detailed explanation of each step:
 -The case '*' statement multiplies the two numbers and prints the result.
 -The case '/' statement divides the two numbers and prints the result, unless the second number is zero. In that case, the program prints an error message.
 -The default case statement prints a message saying that the operator is invalid.
+
 I hope this explanation is clear. Let me know if you have any other questions.
 
 Here are some examples of how the program would work:
