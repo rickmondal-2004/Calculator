@@ -1,11 +1,1 @@
-1. The first line, #include <stdio.h>, tells the compiler to include the standard input/output header file. This file contains declarations for functions such as printf() and scanf(), which are used to read and write data from the console.
-The next line, int main(), defines the main function. This is the function that is called when the program starts running.
-The next few lines declare the variables that will be used in the program. The variable operator is a character variable that will store the operator entered by the user. The variables num1 and num2 are double variables that will store the two numbers entered by the user. The variable result is a double variable that will store the result of the calculation.
-The next line, printf("Enter an operator (+, -, *, /): ");, prints a message to the console asking the user to enter an operator.
-The next line, scanf("%c", &operator), reads the operator entered by the user and stores it in the variable operator.
-The next line, printf("Enter two numbers: ");, prints a message to the console asking the user to enter two numbers.
-The next line, scanf("%lf %lf", &num1, &num2), reads the two numbers entered by the user and stores them in the variables num1 and num2.
-The next line, switch(operator), starts a switch statement. The switch statement will execute the code block associated with the operator that was entered by the user.
-The case statements in the switch statement check the value of the variable operator and execute the corresponding code block if the value matches. The case statements for the addition, subtraction, and multiplication operators simply calculate the result of the operation and print it to the console. The case statement for the division operator checks if the second number is zero. If it is, the program prints an error message. Otherwise, the program calculates the result of the division and prints it to the console.
-The default case statement is executed if the value of the variable operator does not match any of the case statements. In this case, the program prints a message saying that the operator is invalid.
-The last line, return 0;, tells the compiler that the main function has finished executing successfully.
+
