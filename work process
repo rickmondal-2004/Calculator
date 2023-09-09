@@ -1,8 +1,8 @@
-The program first prints a message to the console asking the user to enter an operator (+, -, *, /).
-The program then reads the operator entered by the user.
-The program then prints a message to the console asking the user to enter two numbers.
-The program then reads the two numbers entered by the user.
-The program then uses a switch statement to determine which operation to perform.
+1. The program first prints a message to the console asking the user to enter an operator (+, -, *, /).
+2. The program then reads the operator entered by the user.
+3. The program then prints a message to the console asking the user to enter two numbers.
+4. The program then reads the two numbers entered by the user.
+5. The program then uses a switch statement to determine which operation to perform.
 If the operator is +, the program adds the two numbers and prints the result.
 If the operator is -, the program subtracts the two numbers and prints the result.
 If the operator is *, the program multiplies the two numbers and prints the result.
@@ -10,11 +10,11 @@ If the operator is /, the program divides the two numbers and prints the result,
 If the operator is not one of the four allowed operators, the program prints a message saying that the operator is invalid.
 Here is a more detailed explanation of each step:
 
-The printf() function in the first line prints a message to the console asking the user to enter an operator.
-The scanf() function in the second line reads the operator entered by the user and stores it in the variable operator.
-The printf() function in the third line prints a message to the console asking the user to enter two numbers.
-The scanf() function in the fourth line reads the two numbers entered by the user and stores them in the variables num1 and num2.
-The switch() statement in the fifth line checks the value of the variable operator and executes the corresponding code block.
+1. The printf() function in the first line prints a message to the console asking the user to enter an operator.
+2. The scanf() function in the second line reads the operator entered by the user and stores it in the variable operator.
+3. The printf() function in the third line prints a message to the console asking the user to enter two numbers.
+4. The scanf() function in the fourth line reads the two numbers entered by the user and stores them in the variables num1 and num2.
+5. The switch() statement in the fifth line checks the value of the variable operator and executes the corresponding code block.
 The case '+' statement adds the two numbers and prints the result.
 The case '-' statement subtracts the two numbers and prints the result.
 The case '*' statement multiplies the two numbers and prints the result.
