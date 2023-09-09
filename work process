@@ -3,11 +3,11 @@
 3. The program then prints a message to the console asking the user to enter two numbers.
 4. The program then reads the two numbers entered by the user.
 5. The program then uses a switch statement to determine which operation to perform.
-If the operator is +, the program adds the two numbers and prints the result.
-If the operator is -, the program subtracts the two numbers and prints the result.
-If the operator is *, the program multiplies the two numbers and prints the result.
-If the operator is /, the program divides the two numbers and prints the result, unless the second number is zero. In that case, the program prints an error message.
-If the operator is not one of the four allowed operators, the program prints a message saying that the operator is invalid.
+-If the operator is +, the program adds the two numbers and prints the result.
+-If the operator is -, the program subtracts the two numbers and prints the result.
+-If the operator is *, the program multiplies the two numbers and prints the result.
+-If the operator is /, the program divides the two numbers and prints the result, unless the second number is zero. In that case, the program prints an error message.
+-If the operator is not one of the four allowed operators, the program prints a message saying that the operator is invalid.
 
 Here is a more detailed explanation of each step:
 
@@ -16,11 +16,11 @@ Here is a more detailed explanation of each step:
 3. The printf() function in the third line prints a message to the console asking the user to enter two numbers.
 4. The scanf() function in the fourth line reads the two numbers entered by the user and stores them in the variables num1 and num2.
 5. The switch() statement in the fifth line checks the value of the variable operator and executes the corresponding code block.
-The case '+' statement adds the two numbers and prints the result.
-The case '-' statement subtracts the two numbers and prints the result.
-The case '*' statement multiplies the two numbers and prints the result.
-The case '/' statement divides the two numbers and prints the result, unless the second number is zero. In that case, the program prints an error message.
-The default case statement prints a message saying that the operator is invalid.
+-The case '+' statement adds the two numbers and prints the result.
+-The case '-' statement subtracts the two numbers and prints the result.
+-The case '*' statement multiplies the two numbers and prints the result.
+-The case '/' statement divides the two numbers and prints the result, unless the second number is zero. In that case, the program prints an error message.
+-The default case statement prints a message saying that the operator is invalid.
 I hope this explanation is clear. Let me know if you have any other questions.
 
 Here are some examples of how the program would work:
