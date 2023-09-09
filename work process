@@ -1,1 +1,19 @@
+The program first asks the user to enter an operator (+, -, *, /).
+The program then reads the operator entered by the user.
+The program then asks the user to enter two numbers.
+The program then reads the two numbers entered by the user.
+The program then uses a switch statement to determine which operation to perform.
+If the operator is +, the program adds the two numbers and prints the result.
+If the operator is -, the program subtracts the two numbers and prints the result.
+If the operator is *, the program multiplies the two numbers and prints the result.
+If the operator is /, the program divides the two numbers and prints the result, unless the second number is zero. In that case, the program prints an error message.
+If the operator is not one of the four allowed operators, the program prints a message saying that the operator is invalid.
+Here is a more detailed explanation of each step:
 
+The printf() function in the first line prints a message to the console asking the user to enter an operator.
+The scanf() function in the second line reads the operator entered by the user and stores it in the variable operator.
+The printf() function in the third line prints a message to the console asking the user to enter two numbers.
+The scanf() function in the fourth line reads the two numbers entered by the user and stores them in the variables num1 and num2.
+The switch() statement in the fifth line checks the value of the variable operator and executes the corresponding code block.
+The case statements in the switch statement check the value of the variable operator and execute the corresponding code block if the value matches. The case statements for the addition, subtraction, and multiplication operators simply calculate the result of the operation and print it to the console. The case statement for the division operator checks if the second number is zero. If it is, the program prints an error message. Otherwise, the program calculates the result of the division and prints it to the console.
+The default case statement is executed if the value of the variable operator does not match any of the case statements. In this case, the program prints a message saying that the operator is invalid.
