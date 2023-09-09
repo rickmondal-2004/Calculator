@@ -8,6 +8,7 @@ If the operator is -, the program subtracts the two numbers and prints the resul
 If the operator is *, the program multiplies the two numbers and prints the result.
 If the operator is /, the program divides the two numbers and prints the result, unless the second number is zero. In that case, the program prints an error message.
 If the operator is not one of the four allowed operators, the program prints a message saying that the operator is invalid.
+
 Here is a more detailed explanation of each step:
 
 1. The printf() function in the first line prints a message to the console asking the user to enter an operator.
