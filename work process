@@ -26,7 +26,7 @@ I hope this explanation is clear. Let me know if you have any other questions.
 
 Here are some examples of how the program would work:
 
-If the user enters +, 10, and 5, the program would print the result 15.
+ If the user enters +, 10, and 5, the program would print the result 15.
 If the user enters -, 10, and 5, the program would print the result 5.
 If the user enters *, 10, and 5, the program would print the result 50.
 If the user enters /, 10, and 0, the program would print the error message Error: Cannot divide by zero.
