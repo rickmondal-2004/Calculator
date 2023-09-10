@@ -3,7 +3,7 @@
 3. The program then prints a message to the console asking the user to enter two numbers.
 4. The program then reads the two numbers entered by the user.
 5. The program then uses a switch statement to determine which operation to perform.
--If the operator is +, the program adds the two numbers and prints the result.
+ -If the operator is +, the program adds the two numbers and prints the result.
 -If the operator is -, the program subtracts the two numbers and prints the result.
 -If the operator is *, the program multiplies the two numbers and prints the result.
 -If the operator is /, the program divides the two numbers and prints the result, unless the second number is zero. In that case, the program prints an error message.
