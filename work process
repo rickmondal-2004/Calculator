@@ -31,4 +31,3 @@ Here are some examples of how the program would work:
  If the user enters *, 10, and 5, the program would print the result 50.
  If the user enters /, 10, and 0, the program would print the error message Error: Cannot divide by zero.
  If the user enters an invalid operator, such as %, the program would print the message Invalid operator.
-
